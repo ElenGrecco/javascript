@@ -40,8 +40,43 @@ git commit -m "tutorial" (documentar as alterações)
 git push (enviar ao repositório GitHub)
 git pull (sincroniza as informações de repositório) no PC
 
+------------------------------------------------------------------------------
+
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+
+------------------------------------------------------------------------------
+
+Boas práticas na programação
+1) Cabeçalho de documentação
+/**
+    Nome do projeto
+    Descrição da classe / função
+    @author Elen Grecco
+    @version 1.0
+*/
+
+-------------------------------------------------------------------------------
+
+Node - Plataforma que permite a execução do JavaScript fora do navegador (browser)
+https://nodejs.org/ ( baixar sempre a versão LTS)
+
+Comandos básicos:
+node -v (para verificar a versão)
+
+--------------------------------------------------------------------------------
+
+Gerenciador de pacotes para o node
+mpm está relacionado a pasta do projeto, ou seja, os pacotes são instalados na raiz dos projetos e não no sistema operacional
+
+
+npm -v (verificar versão do npm)
+npm ls (listar pacotes instalados)
+npm init ( iniciar um novo projeo JavaScript)
+    |____ package.json
+
+json (javaScript Objet Notation)    
+
