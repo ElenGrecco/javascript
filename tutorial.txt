@@ -134,4 +134,8 @@ const -> Criar (declarar) uma constante
 let -> criar (declarar) uma variável
 typeof() -> verificar o tipo de variável
 
+!!!!!ATENÇÃO!!!!
+No JavaScript uma variável pode ser criada usando let ou var.
+var (obsoleto e inseguro), usar sempre o let!!!
+
 
