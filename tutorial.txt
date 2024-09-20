@@ -36,6 +36,7 @@ git config --global user.email "seuemail@email.com"
 git clone url_do_repositório (clonar um repositório)
 git status (verificar o status do repositorio local)
 git add .  (adiciona ao repositóro local)
+git add *  (adiciona todos os repositórios) 
 git commit -m "tutorial" (documentar as alterações)
 git push (enviar ao repositório GitHub)
 git pull (sincroniza as informações de repositório) no PC
