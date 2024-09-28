@@ -21,7 +21,7 @@ peso = 62
 altura = 1.59
 vip = true 
 
-//procssamento
+//processamento
 fcm = 208-(0.7 * idade)
 imc = peso / (altura * altura)
 
