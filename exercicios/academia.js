@@ -17,7 +17,7 @@ console.clear()
 //entrada de dados
 nome = "Elen Grecco"
 idade = 40
-peso = 62
+peso = 105
 altura = 1.59
 vip = true 
 
@@ -35,3 +35,18 @@ console.log(`Altura: ${altura}`)
 console.log(`Vip: ${vip}`)
 console.log(`FCM: ${fcm}`)
 console.log(`IMC: ${imc.toFixed(2)}`)
+// tabela IMC
+if (imc< 18.5) {
+    console.log("Abaixo do peso" )
+} else if (imc< 25) {
+    console.log("Peso normal" )
+} else if (imc< 30) {
+    console.log("Levemente acima do peso" )
+} else if (imc< 35) {
+    console.log("Obesidade classe I" )
+} else if (imc< 40) {
+    console.log("Obesidade classe II" )
+} else {
+    console.log("Obesidade classe III" )
+
+}
