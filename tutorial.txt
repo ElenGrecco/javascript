@@ -192,6 +192,20 @@ if (condição 1) {
 Obs: Nesta estrutura o "else" é opcional, porém se indicado caso não nenhuma condição for verdadeira, ele
 obrigatóriamente executrá oq estiver no else.
 
+switch case (uso de variável numérica (número inteiro))
+
+swicth (variável) {
+    case 1:
+        //código caso o valor da variavel seja 1
+        break
+    case 2:    
+        //código caso o valor da variavel seja 2
+        break
+    default:
+        //opcional, o código será executado se nenhum caso for definido
+        break
+
+}
 
 Observações:
 1) Uma condição nunca pode ser verdadeira e falsa simultaneamente.
