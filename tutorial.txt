@@ -211,6 +211,23 @@ Observações:
 1) Uma condição nunca pode ser verdadeira e falsa simultaneamente.
 2) No uso do if-else sempre uma das condições será processada.
 
+Estruturas de controle - Laços de repetições
+
+for (let i = 1; i <10; i++) {
+    // o código aqui dentro será repetido enquanto a condição for verdadeira
+}
+
+//Laço com número de repetições definidas (sempre é número inteiro o laço for, pois existem 3 laços que veremos no futuro)
+//let i = (ninício)
+//i < 10 (condição)
+//i++ (incremento) i-- (decremento)
+
+Uso do laço for
+1) MUITOOO IMPORTANTE! Percorrer uma estrutura de dados (Importante) é o maior uso do laço for!!!
+2) Simplificar o código (reduzir o código, economia em tudo, energia por exemplo)
+3) Fazer cálculos levando em conta a variável interna do laço
+
+
 
 _______________________________________________________________
 
