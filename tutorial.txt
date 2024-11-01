@@ -237,7 +237,14 @@ do {
 }while (condição)
 
 Obs: Az estrutura while ou do-while são estruturas de repetições infinitas, ou seja, enquanto a condição for verdeira 0
-código interno será repetido infinitamente_______________________________________________________________
+código interno será repetido infinitamente.
+
+_____________________________________________________________________________________________________________________
+
+Executando o JavaScript junto com o HTML5
+
+-Execução interno no próprio documento HTML5
+-Link com um documento JS (preferenciamente)
 
 
 
