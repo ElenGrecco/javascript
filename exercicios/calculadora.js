@@ -77,6 +77,6 @@ function divisão(a, b) {
 function porcentagem(a, b) {
     return console.log(`A porcentagem de ${a} % ${b} = ${(a * b) /100}`)
 }
-resultado = input.question("Deseja jogar novamente? (s/n): ")
+resultado = input.question("Deseja efetuar novo calculo? (s/n): ")
 
 } while (resultado === 's');
