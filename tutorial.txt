@@ -259,6 +259,19 @@ Create: Inserção de dados na estrutura.
 Read: Pesquisa de dados na estrutura.
 Update: Alteração de dados na estrutura.
 Delete: Exclusão de dados.
+
+Pilares da programção orientada  objetos:
+// Reutilização
+Abstração
+Herança
+Polimorfismo
+
+// Segurança
+Encapsulamento
+
+Obsevações:
+Toda classe modelo obrigatóriamente deve iniciar com a letra maiúscula
+
  
 Abstração
 Herança 
