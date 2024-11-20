@@ -270,7 +270,16 @@ Polimorfismo
 Encapsulamento
 
 Obsevações:
-Toda classe modelo obrigatóriamente deve iniciar com a letra maiúscula
+Toda classe modelo obrigatóriamente deve iniciar com a letra maiúscula.
+
+Dica:
+
+Classe (Biologia)
+
+Lingua Portuguesa:
+Objeto (substantivo)
+Atributo (adjetivo)
+Métodos (verbos)
 
  
 Abstração
