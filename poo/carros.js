@@ -64,7 +64,7 @@ class Aviao extends Carro {
     aterrissar() {
 
         console.log("._._._._._._._._._._._._._._._._._._._.")
-        console.log("□ □ □ □ ☀Aterrissar!")
+        console.log("□ □ □ □ ☀ Aterrissar!")
     }
 
 }
