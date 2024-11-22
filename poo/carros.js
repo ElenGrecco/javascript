@@ -26,7 +26,7 @@ class Carro {
     }
 
     ligar() {
-        console.log(`Carro de ${this.cor} ligado!`)
+        console.log(`□ □ □ □ Carro de ${this.cor} ligado!`)
     }
 
     acelerar() {
@@ -57,26 +57,35 @@ class Aviao extends Carro {
         console.log("-------------------------------------------")
     }
 
+    acelerar() {
+        console.log("□ □ □ □ # Decolar!")
+    }
     // Método para aterrissar o avião
     aterrissar() {
 
         console.log("._._._._._._._._._._._._._._._._._._._.")
-        console.log("☀ Avião aterrissando!")
+        console.log("□ □ □ □ ☀Aterrissar!")
     }
 
 }
-
+console.log("--------inicio")
 //Instanciando (Criando) um objeto.
 const carro1 = new Carro("1978", "vermelho")
 carro1.criarCarro()
+carro1.ligar()
+carro1.acelerar()
+carro1.desligar()
 
 const carro2 = new Carro("2024", "azul")
 carro2.criarCarro()
-
+carro1.ligar()
+carro1.acelerar()
+carro1.desligar()
 
 
 const aviao1 = new Aviao("2018", "Branco", 30)
 aviao1.criarAviao()
+aviao1.acelerar()
 aviao1.aterrissar()
 
 

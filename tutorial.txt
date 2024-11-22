@@ -266,6 +266,13 @@ Abstração
 Herança
 Polimorfismo
 
+Classe modelo (abstração - herança - poliformismo)
+- Biblioteca nativa dp JS
+- Biblioteca instalada do node
+- Criada pelo isuário usando class
+
+Obeservação! o ponto "." é usado para acessar atributos e metodos da classe modelo.
+
 // Segurança
 Encapsulamento
 
