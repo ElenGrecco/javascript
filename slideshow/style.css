@@ -3,35 +3,30 @@
     padding: 0;
 }
 
-.container {
+.Container {
     max-width: 1080px;
     margin: 0 auto;
-
 }
 
-.container img {
+img {
     max-width: 100%;
 }
 
-/* Classes que serão manipuladas pelo JS 
-easy-in-out (efeito de tansição suave)
-.slideEsq e .slideDir (classes que serão adicionadas ao html pelo JS)
-transition transform ( Efeito de animação do CSS(rolagem na horizontal e fade))
+/* Efeito deslizar (transform) com fade (opacity) */
 
-*/
-
-#slide {
-    transition: transform is ease-in-out, opacity 1s ease-in-out;
+/* Configuração inicial do slide */
+#slide {      
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 
-/* saída */
-#slide.slideEsq {
-    transform: translateX(-100%);
-    opacity: 0; /* totalmente transparente*/
+/* slide de entrada */
+#slide.slideIn {
+    transform: translateX(-100%); /* 0  translateY */
+    opacity: 0;
 }
 
-/* entrada */
-#slide.slideDir {
-    transform: translateX(0);
-    opacity: 1; /* sólido */
+/* slide de saída */
+#slide.slideOut {
+    transform: translateX(0); /* translateY */
+    opacity: 1;
 }
