@@ -1,6 +1,6 @@
 /**
  * Estrutura de dados array
- * @author Erica Viana
+ * @author Elen Grecco
  */
 
 //                 [0]      [1]      [2]      [3]      [4]
